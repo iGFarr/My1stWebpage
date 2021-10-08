@@ -1,0 +1,99 @@
+/*sets font size and spacing for all links; sets colors for local nav links*/
+a {
+  font-size: 30px;
+  padding-right: 15px;
+}
+a:link    { color: blue;  }
+a:visited { color: rgb(55, 9, 107);   }
+a:hover   { color: rgb(24, 80, 24); }
+a:active  { color: rgb(0, 0, 0);  }
+
+/*background with color gradient, followed by header color gradient*/
+body {
+  background-image: linear-gradient(rgb(23, 67, 27), rgb(45, 149, 153));
+}
+ 
+header {
+  background-image: linear-gradient(to bottom right, rgb(56, 54, 54), rgb(254, 227, 227));
+  align-content: center;
+ 
+}
+
+/*combined with nav li class, this code puts nav links next to each other instead of vertical*/
+nav {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  border-bottom:black, 1px, solid;
+  border-top: black, 1px, solid;
+}
+
+nav li {
+  display: inline-block;
+  justify-content: center;
+}
+
+/*formatting and sizing for images*/
+.centerIMG {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resizeIMG {
+  width: 400px;
+  height: auto;
+}
+
+.resizeSML {
+  width: 50px;
+  height: auto;
+}
+
+/*used to bring ordered list in with the rest of text; no idea what an em is, but it worked!*/
+.indent {
+padding-left: 15em
+}
+
+/*various text stylings for headers and paragraphs*/
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  font-size: 92px;
+  color: #05031d;
+  text-align: center;
+}
+
+h2, h3, p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  text-align: center;
+  color: black;
+   ;
+}
+
+p {
+  font-size: 20px; 
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+h3 {
+  font-size: 26px;
+  color: red;
+}
+
+ol p {margin-left: 10px;
+     font-size: 20px;}  
+
+/*this code for hr.style was 100% copied and pasted*/
+hr.style {
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+

@@ -8,6 +8,14 @@ a:visited { color: rgb(55, 9, 107);   }
 a:hover   { color: rgb(24, 80, 24); }
 a:active  { color: rgb(0, 0, 0);  }
 
+iframe {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-content: center;
+}
+
+div{text-align: center}
+
 /*background with color gradient, followed by header color gradient*/
 body {
   background-image: linear-gradient(rgb(23, 67, 27), rgb(45, 149, 153));

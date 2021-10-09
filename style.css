@@ -16,7 +16,7 @@ iframe {
 
 div{text-align: center}
 
-/*background with color gradient, followed by header color gradient*/
+/*background with color gradient followed by header color gradient*/
 body {
   background-image: linear-gradient(rgb(23, 67, 27), rgb(45, 149, 153));
 }
